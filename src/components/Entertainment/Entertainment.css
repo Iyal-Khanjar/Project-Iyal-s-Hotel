@@ -1,0 +1,54 @@
+.entertainment {
+	text-align: center;
+}
+.entertainmentTitle {
+	text-align: center;
+	margin-top: 10px;
+}
+.gridPicActivities img {
+	border-radius: 10%;
+	margin: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 10.8%;
+}
+.gridPicActivities img:hover {
+	opacity: 0.8;
+}
+.userList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.userList li {
+	list-style: none;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: burlywood;
+}
+.userList li:last-child {
+	background: none;
+	border: 0px solid black;
+}
+input {
+	background-color: rgb(247, 190, 115);
+	border: 1px solid black;
+	height: 39px;
+	width: auto;
+	padding: 10px;
+	cursor: pointer;
+}
+input:hover {
+	opacity: 0.8;
+}
+.mockApiImage {
+	height: 50px;
+	width: 50px;
+}
+p {
+	margin-bottom: 2.6%;
+}
+.addThisActivities{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+}
+.banner-area {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 80vh;
+	background: url('./img/yuliya-pankevich-oyxsG2Lh_uA-unsplash.jpg') no-repeat center center/cover;
+	/* background-size: cover; */
+}
+.content-area {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	width: 700px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.contents {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+.contents .title {
+	font-size: 60px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: sandybrown 5px solid;
+}
+
+.contents .bookBtn {
+	height: auto;
+	width: auto;
+	color: rgba(0, 0, 0, 0.63);
+	padding: 5px;
+	background-color: sandybrown;
+	border: 2px solid sandybrown;
+	font-size: 30px;
+	margin-bottom: 20px;
+	transition: 0.8s;
+}
+.contents .bookBtn:hover {
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+.contents .text {
+	font-size: 20px;
+}
+.contents .text {
+	padding-bottom: 10px;
+	border-bottom: sandybrown 5px solid;
+}

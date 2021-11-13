@@ -1,0 +1,106 @@
+.containAll {
+	width: 100vw;
+	margin-bottom: 65px;
+
+}
+.containAll .searchRooms {
+	margin-top: 20px;
+	text-align: center;
+}
+.room1 {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	justify-items: center;
+}
+img {
+	border-radius: 5%;
+	height: 250px;
+	width: 250px;
+	padding-bottom: 10px;
+}
+.imgAndName:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(174,190,24,1);
+}
+.imgAndName {
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	margin-bottom: 50px;
+	border: 1px black solid;
+	background-color: rgb(255, 169, 9);
+	box-shadow: 0 4px 8px 0 rgb(174, 190, 24);
+}
+.imgAndName span {
+	font-size: 20px;
+	color: white;
+}
+.formGroup {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.formGroup label {
+	margin-bottom: 5px;
+}
+.searchAndMoney {
+	display: flex;
+}
+.searchAndMoney .moneyAmount {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 50px;
+}
+.searchAndMoney .moneyAmount .money {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	margin-right: 5px;
+	padding: 0px 20px;
+	border: 1px solid black;
+	background-color: blanchedalmond;
+}
+.totalMoney {
+	margin-bottom: 5px;
+}
+.BookARoom {
+	height: auto;
+	width: auto;
+	color: rgba(0, 0, 0);
+	padding: 5px;
+	background-color: sandybrown;
+	border: 2px solid sandybrown;
+	margin-bottom: 20px;
+	transition: 0.8s;
+}
+.BookARoom:hover {
+	background: none;
+	cursor: pointer;
+}
+.moneyAndBtn {
+	display: flex;
+}
+.getBack{
+	margin: 10px;
+}
+@media screen and (max-width: 992px) {
+	.room1 {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+		justify-items: center;
+	}
+}
+@media screen and (max-width: 500px) {
+	.room1 {
+		display: grid;
+		grid-template-columns: repeat(1, auto);
+		justify-items: center;
+	}
+}
